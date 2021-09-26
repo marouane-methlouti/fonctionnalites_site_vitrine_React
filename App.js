@@ -12,6 +12,7 @@ import Header from './Header';
 const App = () => {
   return (
     <div>
+      <h1> Un petit entraînement, qui sera enrichi au fure et à mesure</h1>
       <Header />
       {/* <Login /> */}
     </div>

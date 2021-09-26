@@ -23,6 +23,8 @@ const Interval = () => {
         <div >
             <header >
                 <span>Heure locale  {hours}:{minutes < 10 ? '0' + minutes : minutes}:{seconds < 10 ? '0' + seconds : seconds}</span>
+                <hr/>
+                <br/>
               <Calendrier />
             </header>
         </div>

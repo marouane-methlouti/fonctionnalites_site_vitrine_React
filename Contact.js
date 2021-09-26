@@ -63,7 +63,8 @@ export const ContactForm = function () {
                                         placeholder="Votre message"
                                         value={message}
                                         onChange={(e) => setMessage(e.target.value)} />
-                                    <br />
+                                    <br/>
+                                    <br/>
 
                                     <button type="envoyer">Envoyer</button>
 

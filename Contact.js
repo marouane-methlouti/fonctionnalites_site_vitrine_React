@@ -7,6 +7,7 @@ export const ContactForm = function () {
     // const [forms, setForms]= React.useState('');
 
     function handleSubmit(event) {
+        alert(name +' '+ 'merci pour votre message, vous aurez une réponse de notre part dans les plus bref délais.');
         event.preventDefault();
 
         const options = {
@@ -20,6 +21,7 @@ export const ContactForm = function () {
                 email: email,
                 message: message,
             }),
+            
         }
 
         fetch("http://localhost:3000/contactSubmit", options)
